@@ -15,4 +15,10 @@ console.log(produto)
 
 produto.preco = undefined // evite atribuir undefined, deixe para o sistema fazer isso 
 console.log(!!produto.preco) //dara falso pois o preço esta UNDEFINED
-console.log(produto) // agora possui um preço indefinido 
+console.log(produto) // agora possui um preço indefinido
+// delete produto.preco // serve para deletar os valores dentro do preco e nao UNDEFINED
+
+
+produto.preco = null // sem preço < ebook gratis ex>
+console.log(!!produto.preco)
+console.log(produto)
