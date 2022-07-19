@@ -14,7 +14,8 @@ const Cliente = {
     peso: 52,
     endereco:{
         logradouro: 'Rua Muito Legal',
-        numero: 123
+        numero: 123,
+        tel: 1123523451234
     }
 }
 console.log(saudacao)
