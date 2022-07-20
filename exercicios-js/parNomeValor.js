@@ -15,7 +15,8 @@ const Cliente = {
     endereco:{
         logradouro: 'Rua Muito Legal',
         numero: 123,
-        tel: 1123523451234
+        tel: 1123523451234,
+        job: gamer
     }
 }
 console.log(saudacao)
